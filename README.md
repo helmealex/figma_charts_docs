@@ -1,21 +1,33 @@
 # **Figma Charts Plugin Documentation**
 
-Welcome to the official documentation for the **Figma Charts Plugin**! This plugin allows you to easily create charts and visual data representations directly within Figma. Whether you're designing dashboards, reports, or data-driven UI components, the Figma Charts Plugin helps you seamlessly integrate charts into your designs.
+Welcome to the official documentation for the **Figma Charts Builder Plugin**! This plugin allows you to easily create charts and visual data representations directly within Figma. Whether you're designing dashboards, reports, or data-driven UI components, the Figma Charts Plugin helps you seamlessly integrate charts into your designs.
 
 ---
 
-## 📦 **Installation**
+## 📑 **Chapters**
 
-To get started with the Figma Charts Plugin, follow the steps below:
-
-1. Open **Figma** and go to the **Plugins** menu.
-2. Select **Browse Plugins in Community**.
-3. Search for **Charts Plugin**.
-4. Click **Install** to add the plugin to your Figma account.
-
-Alternatively, you can also install it via the Figma Desktop App:
-
-- Open **Figma** > **Plugins** > **Manage Plugins** > **Search for Charts Plugin** > **Install**.
+- [**Introduction**](#introduction)
+- [**Installation**](#installation)
+- [**Usage**](#usage)
+  - [Getting Started](#getting-started)
+  - [Basic Examples](#basic-examples)
+- [**Chart Types**](#chart-types)
+  - [Bar Chart](#bar-chart)
+  - [Line Chart](#line-chart)
+  - [Pie Chart](#pie-chart)
+  - [Radar Chart](#radar-chart)
+- [**Customization**](#customization)
+  - [Colors](#colors)
+  - [Labels](#labels)
+  - [Font Styles](#font-styles)
+  - [Resizing](#resizing)
+- [**Advanced Features**](#advanced-features)
+  - [Data Import](#data-import)
+  - [Interactive Prototyping](#interactive-prototyping)
+- [**API Reference**](#api-reference)
+- [**Community & Support**](#community-support)
+- [**Contributing**](#contributing)
+- [**License**](#license)
 
 ---
 
