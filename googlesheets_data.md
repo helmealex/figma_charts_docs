@@ -26,3 +26,63 @@ Once you’ve adjusted the settings, click **Copy link** to copy the link to you
 2. Paste the Google sheets copied URL in the input. The data from the sheet should successfully be loaded
 
 # Data formatting
+
+Depending on the type of charts you selected the data you enter in the Google sheet should look different:
+
+## Bar / Line / Area & Radar charts
+
+[Here](https://docs.google.com/spreadsheets/d/1GBpzleFFwKTv3Qq6Bn8YH91BP3g75dswdKnXz4ePrAk/edit?gid=1498389673#gid=1498389673) is an example for these types of charts
+
+|             | Dataset 1 | Dataset 2  |
+|-------------|-----|-------------|
+| Label 1       | 25  | 12    |
+| Label 2        | 30  | 22    |
+| Label 3    | 35  | 34     |
+
+**The first line** with the headers will ignore the first cell and the next cells need to contain the names of the datasets (they will be displayed in the legend)
+
+**The first colum** starting from the second line will contain the names of the lables which will be displayed alongside the X axis for bar, line and area charts and around the ends for radar chart.
+
+**All the other cells** from the second line and second column should contain numeric values representing data points. Each column from column number 2 represents a dataset. 
+
+You can create as many columns as you wish, but you have to make sure you respect the above mentioned rules.
+
+## Pie / Doughnut / Polar area charts
+
+[Here](https://docs.google.com/spreadsheets/d/1tVn5lqKgo6q8e61_JIgBfkuvdyUNlcWrioQtGrUmlmY/edit?gid=812464488#gid=812464488) is an example for these types of charts
+
+|             | Data | 
+|-------------|-----|
+| Label 1       | 25  | 
+| Label 2        | 30  | 
+| Label 3    | 35  | 
+
+**First column** from second line represents the dataset labels represented in the legend
+
+**Second column** from second line should contain numeric values representing the values of a pie.
+
+## Scatter chart
+
+[Here](https://docs.google.com/spreadsheets/d/1Lu9w10A5uPCnfyUTDlu1X72WL1Zns2QMot3Mz9i_foU/edit?gid=1961939755#gid=1961939755) is an example for this type of chart.
+
+|   Dataset 1          |  | Dataset 2| |
+|-------------|-----|---|---|
+|12      | 25  | 12|34|
+| 33        | 30  | 34|45|
+| 44    | 35  | 22|36|
+
+**First line** should contain the dataset names separated by one empty cell.
+
+**Second line** below should contain for each dataset x and y coordinates for the scatter points. The values are below the dataset name - for example **12** and **25** represent the **x** and **y** coordinates for a point from **Dataset 1**.
+
+## Bubble chart 
+
+[Here](https://docs.google.com/spreadsheets/d/12_lAMVPOm64ZT9Menlms8YBI40oR5FJTh86nv2WKMUU/edit?gid=1620552751#gid=1620552751) is an example for this type of chart.
+
+|   Dataset 1          |  | | Dataset 2| | |
+|-------------|-----|-----|---|---|-----|
+|12      | 25  | 12|34| 12 |10|
+| 33        | 30  | 34|45| 33| 5|
+| 44    | 35  | 22|36| 12| 44|
+
+It is similar to the scatter chart, exception is that it has an additional column for each dataset that represents the **radius** of the bubble.  For example **12**, **25** and **12** represent the **x**, **y** and **radius** of a bubble from **Dataset 1**.
