@@ -1,1 +1,31 @@
-<div>test</div>
+<div class="checkout-container"></div>
+
+<!-- paddle payment script -->
+<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+<script type="text/javascript">
+    Paddle.Environment.set("sandbox");
+    Paddle.Initialize({
+        token: "test_5f1659e3cf70af4dddc73c5babf",
+        checkout: {
+            settings: {
+                displayMode: "inline",
+                frameTarget: "checkout-container",
+                frameInitialHeight: "450",
+                frameStyle: "width: 100%; min-width: 312px; background-color: transparent; border: none;"
+            }
+        }
+    });
+
+    // open checkout
+    function openCheckout() {
+        Paddle.Checkout.open({
+            items: [
+                {
+                    priceId: "pri_01jmd09v4hw03b5ra30aqqq52a",
+                    quantity: 1
+                }]
+        });
+    }
+
+    openCheckout()
+</script>
