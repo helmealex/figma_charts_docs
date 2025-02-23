@@ -9,7 +9,7 @@ Welcome to the official documentation for the **Figma Charts Builder Plugin**! T
 - **Data sources**
   - 🎲 [Random datasets](random_data.md)
   - 📊 [Google sheets data](googlesheets_data.md)
-  - [Payment](checkout.html)
+  <!-- - [Payment](checkout.html) -->
 
 
 
