@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Data Source - Hugo Whisper Theme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="//localhost:1313/%20favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-docs">
+      <a href="/docs/">
+        <span>Docs</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="//localhost:1313/"><img width="70" height="70" alt="Logo" src="/images/logo.svg" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="//localhost:1313/"><img  width="70" height="70" alt="Logo" src="/images/logo-mobile.svg" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-docs">
+      <a href="/docs/">
+        <span>Docs</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Docs</h4>
+  <ul>
+    
+    <li class="active ">
+      <a href="//localhost:1313/docs/data_source/">Data Source</a>
+    </li>
+    
+    <li class="">
+      <a href="//localhost:1313/docs/upgrade/">Upgrade</a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">Data Source</h1>
+<div class="content ">
+  <h1 id="random-data-source">Random Data Source</h1>
+<p><img src="https://github.com/user-attachments/assets/6912a1ef-026d-4a56-98de-6411879ee7c4" alt="image"></p>
+<p>You can make the plugin generate random datasets by choosing the <strong>Random data</strong> option from the upper-right dropdown.</p>
+<p>There are a few options available to be configured for the random data:</p>
+<ul>
+<li><strong>Count</strong> - represents the number of datasets</li>
+<li><strong>Length</strong> - represents the length of each dataset</li>
+<li><strong>Min Value</strong> - represents the lower point of the interval in which data points are generated</li>
+<li><strong>Max Value</strong> - represents the upper point of the interval in which data points are generated</li>
+</ul>
+<p>Important: ❗ The above configuration options are not available for all chart types</p>
+<h1 id="google-sheets-data-source">Google sheets Data Source</h1>
+<p>In order to load data from <strong>Google Sheets</strong> you have to follow the following steps.</p>
+<h2 id="step-1-open-your-google-sheets-document">Step 1: Open Your Google Sheets Document</h2>
+<ol>
+<li>Go to <a href="https://sheets.google.com">Google Sheets</a>.</li>
+<li>Open the document you want to make public or create a new one.</li>
+</ol>
+<h2 id="step-2-click-the-share-button">Step 2: Click the &ldquo;Share&rdquo; Button</h2>
+<p>In the top right corner of the page, click the <strong>Share</strong> button.</p>
+<h2 id="step-3-adjust-sharing-settings">Step 3: Adjust Sharing Settings</h2>
+<ol>
+<li>In the &ldquo;Share with people and groups&rdquo; window, look for the section titled <strong>General Access</strong>.</li>
+<li>Under the <strong>General Access</strong> section, click the dropdown that may say <strong>Restricted</strong>.</li>
+</ol>
+<h2 id="step-4-change-link-access">Step 4: Change Link Access</h2>
+<ol>
+<li>Select <strong>Anyone with the link</strong>. This will allow anyone who has the link to view, comment, or edit the document, depending on the access level you choose.</li>
+<li>Choose the type of access you want to provide as <strong>Viewer</strong> - Allows people to only view the document.</li>
+</ol>
+<h2 id="step-5-copy-the-link">Step 5: Copy the Link</h2>
+<p>Once you&rsquo;ve adjusted the settings, click <strong>Copy link</strong> to copy the link to your clipboard.</p>
+<h2 id="step-6-paste-the-link-in-the-figma-plugin">Step 6: Paste the link in the Figma plugin</h2>
+<ol>
+<li>In the plugin window select <strong>Google sheets</strong> from the upper-right menu. An URL input should appear beneath it
+<img src="https://github.com/user-attachments/assets/b39291fd-b144-48a5-bdd5-1cffd0389450" alt="image"></li>
+<li>Paste the Google sheets copied URL in the input. The data from the sheet should successfully be loaded</li>
+</ol>
+<h1 id="data-formatting">Data formatting</h1>
+<p>Depending on the type of charts you selected the data you enter in the Google sheet should look different:</p>
+<h2 id="bar--line--area--radar-charts">Bar / Line / Area &amp; Radar charts</h2>
+<p><a href="https://docs.google.com/spreadsheets/d/1GBpzleFFwKTv3Qq6Bn8YH91BP3g75dswdKnXz4ePrAk/edit?gid=1498389673#gid=1498389673">Here</a> is an example for these types of charts</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>Dataset 1</th>
+          <th>Dataset 2</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Label 1</td>
+          <td>25</td>
+          <td>12</td>
+      </tr>
+      <tr>
+          <td>Label 2</td>
+          <td>30</td>
+          <td>22</td>
+      </tr>
+      <tr>
+          <td>Label 3</td>
+          <td>35</td>
+          <td>34</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>The first line</strong> with the headers will ignore the first cell and the next cells need to contain the names of the datasets (they will be displayed in the legend)</p>
+<p><strong>The first colum</strong> starting from the second line will contain the names of the lables which will be displayed alongside the X axis for bar, line and area charts and around the ends for radar chart.</p>
+<p><strong>All the other cells</strong> from the second line and second column should contain numeric values representing data points. Each column from column number 2 represents a dataset.</p>
+<p>You can create as many columns as you wish, but you have to make sure you respect the above mentioned rules.</p>
+<h2 id="pie--doughnut--polar-area-charts">Pie / Doughnut / Polar area charts</h2>
+<p><a href="https://docs.google.com/spreadsheets/d/1tVn5lqKgo6q8e61_JIgBfkuvdyUNlcWrioQtGrUmlmY/edit?gid=812464488#gid=812464488">Here</a> is an example for these types of charts</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>Data</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Label 1</td>
+          <td>25</td>
+      </tr>
+      <tr>
+          <td>Label 2</td>
+          <td>30</td>
+      </tr>
+      <tr>
+          <td>Label 3</td>
+          <td>35</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>First column</strong> from second line represents the dataset labels represented in the legend</p>
+<p><strong>Second column</strong> from second line should contain numeric values representing the values of a pie.</p>
+<h2 id="scatter-chart">Scatter chart</h2>
+<p><a href="https://docs.google.com/spreadsheets/d/1Lu9w10A5uPCnfyUTDlu1X72WL1Zns2QMot3Mz9i_foU/edit?gid=1961939755#gid=1961939755">Here</a> is an example for this type of chart.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Dataset 1</th>
+          <th></th>
+          <th>Dataset 2</th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>12</td>
+          <td>25</td>
+          <td>12</td>
+          <td>34</td>
+      </tr>
+      <tr>
+          <td>33</td>
+          <td>30</td>
+          <td>34</td>
+          <td>45</td>
+      </tr>
+      <tr>
+          <td>44</td>
+          <td>35</td>
+          <td>22</td>
+          <td>36</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>First line</strong> should contain the dataset names separated by one empty cell.</p>
+<p><strong>Second line</strong> below should contain for each dataset x and y coordinates for the scatter points. The values are below the dataset name - for example <strong>12</strong> and <strong>25</strong> represent the <strong>x</strong> and <strong>y</strong> coordinates for a point from <strong>Dataset 1</strong>.</p>
+<h2 id="bubble-chart">Bubble chart</h2>
+<p><a href="https://docs.google.com/spreadsheets/d/12_lAMVPOm64ZT9Menlms8YBI40oR5FJTh86nv2WKMUU/edit?gid=1620552751#gid=1620552751">Here</a> is an example for this type of chart.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Dataset 1</th>
+          <th></th>
+          <th></th>
+          <th>Dataset 2</th>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>12</td>
+          <td>25</td>
+          <td>12</td>
+          <td>34</td>
+          <td>12</td>
+          <td>10</td>
+      </tr>
+      <tr>
+          <td>33</td>
+          <td>30</td>
+          <td>34</td>
+          <td>45</td>
+          <td>33</td>
+          <td>5</td>
+      </tr>
+      <tr>
+          <td>44</td>
+          <td>35</td>
+          <td>22</td>
+          <td>36</td>
+          <td>12</td>
+          <td>44</td>
+      </tr>
+  </tbody>
+</table>
+<p>It is similar to the scatter chart, exception is that it has an additional column for each dataset that represents the <strong>radius</strong> of the bubble.  For example <strong>12</strong>, <strong>25</strong> and <strong>12</strong> represent the <strong>x</strong>, <strong>y</strong> and <strong>radius</strong> of a bubble from <strong>Dataset 1</strong>.</p>
+
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          
+            
+<div class="social">
+    
+        <a href="https://github.com/zerostaticthemes/hugo-whisper-theme" target="blank"><img height="20" width="20" src="/images/social/github.svg" title="Github" alt="Github" /></a>
+    
+        <a href="https://twitter.com/zerostaticio" target="blank"><img height="20" width="20" src="/images/social/twitter.svg" title="Twitter" alt="Twitter" /></a>
+    
+</div>
+
+          
+          
+            <div class="copyright">Free Hugo theme by <a class="zerostatic" href="https://www.zerostatic.io">Zerostatic Themes</a></div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.js"></script>
+  
+
+  
+
+
+</body>
+
+</html>

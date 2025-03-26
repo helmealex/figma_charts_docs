@@ -1,3 +1,25 @@
+---
+title: 'Data Source'
+date: 2019-02-11T19:30:08+10:00
+draft: false
+weight: 1
+summary: Charts builder can plot charts with random or Google sheet values.
+---
+
+# Random Data Source
+
+![image](https://github.com/user-attachments/assets/6912a1ef-026d-4a56-98de-6411879ee7c4)
+
+You can make the plugin generate random datasets by choosing the **Random data** option from the upper-right dropdown.
+
+There are a few options available to be configured for the random data:
++ **Count** - represents the number of datasets
++ **Length** - represents the length of each dataset
++ **Min Value** - represents the lower point of the interval in which data points are generated
++ **Max Value** - represents the upper point of the interval in which data points are generated
+
+Important: ❗ The above configuration options are not available for all chart types
+
 # Google sheets Data Source
 
 In order to load data from **Google Sheets** you have to follow the following steps.
@@ -18,7 +40,7 @@ In the top right corner of the page, click the **Share** button.
 2. Choose the type of access you want to provide as **Viewer** - Allows people to only view the document.
 
 ## Step 5: Copy the Link
-Once you’ve adjusted the settings, click **Copy link** to copy the link to your clipboard.
+Once you've adjusted the settings, click **Copy link** to copy the link to your clipboard.
 
 ## Step 6: Paste the link in the Figma plugin
 1. In the plugin window select **Google sheets** from the upper-right menu. An URL input should appear beneath it

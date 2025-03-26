@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Figma Charts Builder on Hugo Whisper Theme</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Figma Charts Builder on Hugo Whisper Theme</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Feb 2019 19:30:08 +1000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Source</title>
+      <link>//localhost:1313/docs/data_source/</link>
+      <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
+      <guid>//localhost:1313/docs/data_source/</guid>
+      <description>Charts builder can plot charts with random or Google sheet values.</description>
+    </item>
+    <item>
+      <title>Upgrade</title>
+      <link>//localhost:1313/docs/upgrade/</link>
+      <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
+      <guid>//localhost:1313/docs/upgrade/</guid>
+      <description>Upgrade plugin.</description>
+    </item>
+  </channel>
+</rss>
