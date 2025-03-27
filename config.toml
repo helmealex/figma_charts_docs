@@ -8,6 +8,10 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [module]
   [module.hugoVersion]
     extended = true
