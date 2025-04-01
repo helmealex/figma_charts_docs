@@ -54,7 +54,7 @@ summaryLength = 30
 
   [params.logo]
       mobile = "/images/logo-mobile.svg"
-      standard  = "/images/logo.svg"
+      standard  = "https://raw.githubusercontent.com/helmealex/figma_charts_docs/refs/heads/main/public/images/logo.svg"
 
   [params.footer]
     copyright_text = 'Free Hugo theme by <a class="zerostatic" href="https://www.zerostatic.io">Zerostatic Themes</a>'
