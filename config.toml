@@ -33,7 +33,7 @@ summaryLength = 30
 
 [params]
   google_analytics_id=""
-  homepage_button_link = '/docs'
+  homepage_button_link = '/figma_charts_docs/docs/'
   homepage_button_text = 'Read The Docs'
   homepage_intro = 'Welcome to the official documentation for the Figma Charts Builder Plugin! This plugin allows you to easily create charts and visual data representations directly within Figma.'
   homepage_image = 'https://raw.githubusercontent.com/helmealex/figma_charts_docs/refs/heads/main/public/images/figma-plugin-video.gif'
@@ -57,4 +57,4 @@ summaryLength = 30
       standard  = "https://raw.githubusercontent.com/helmealex/figma_charts_docs/refs/heads/main/public/images/logo.svg"
 
   [params.footer]
-    copyright_text = 'Free Hugo theme by <a class="zerostatic" href="https://www.zerostatic.io">Zerostatic Themes</a>'
+    copyright_text = '© 2025 Alexandru Helmeseanu. All Rights Reserved.'
