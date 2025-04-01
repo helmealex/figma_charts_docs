@@ -1,12 +1,7 @@
 [
-    {
-        "name": "Github",
-        "link": "https://github.com/zerostaticthemes/hugo-whisper-theme",
-        "image": "images/social/github.svg"
-    },
-    {
-        "name": "Twitter",
-        "link": "https://twitter.com/zerostaticio",
-        "image": "images/social/twitter.svg"
-    }
+  {
+    "name": "Figma",
+    "link": "https://www.figma.com/community/plugin/1313791281802351990/charts-builder",
+    "image": "images/social/figma.svg"
+  }
 ]

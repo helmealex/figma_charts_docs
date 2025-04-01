@@ -53,7 +53,7 @@ summaryLength = 30
     meta_twitter_creator = "@zerostaticio"
 
   [params.logo]
-      mobile = "/images/logo-mobile.svg"
+      mobile = "https://raw.githubusercontent.com/helmealex/figma_charts_docs/refs/heads/main/public/images/logo.svg"
       standard  = "https://raw.githubusercontent.com/helmealex/figma_charts_docs/refs/heads/main/public/images/logo.svg"
 
   [params.footer]
