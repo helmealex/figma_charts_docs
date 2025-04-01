@@ -36,7 +36,7 @@ summaryLength = 30
   homepage_button_link = '/docs'
   homepage_button_text = 'Read The Docs'
   homepage_intro = 'Welcome to the official documentation for the Figma Charts Builder Plugin! This plugin allows you to easily create charts and visual data representations directly within Figma.'
-  homepage_image = '/images/figma-plugin-video.gif'
+  homepage_image = 'https://raw.githubusercontent.com/helmealex/figma_charts_docs/refs/heads/main/public/images/figma-plugin-video.gif'
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
